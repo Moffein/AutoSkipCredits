@@ -17,7 +17,7 @@ namespace R2API.Utils
 namespace AutoSkipCredits
 {
     [BepInDependency("com.rune580.riskofoptions", BepInDependency.DependencyFlags.SoftDependency)]
-    [BepInPlugin("com.Moffein.AutoSkipCredits", "AutoSkipCredits", "1.0.0")]
+    [BepInPlugin("com.Moffein.AutoSkipCredits", "AutoSkipCredits", "1.0.1")]
     public class AutoSkipCredits : BaseUnityPlugin
     {
         public static ConfigEntry<bool> skipCredits;
